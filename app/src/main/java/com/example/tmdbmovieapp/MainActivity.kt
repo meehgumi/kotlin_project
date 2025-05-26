@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
                                 }
                             )
                             NavigationDrawerItem(
-                                label = { Text("Paramètres") },
+                                label = { Text("Crédits") },
                                 selected = false,
                                 onClick = {
                                     navController.navigate("settings")
@@ -74,6 +74,7 @@ class MainActivity : ComponentActivity() {
                             modifier = Modifier.padding(innerPadding)
                         ) {
                             composable("home") { HomeScreen() }
+                            composable("settings") { SettingsScreen() }
                         }
                     }
                 }
