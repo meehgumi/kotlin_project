@@ -26,7 +26,7 @@ fun SettingsScreen() {
             contentAlignment = Alignment.Center
         ) {
             Text(
-                text = "Cette application, créée par Mehdi, Ilies et Aurélien, est un outil de recherche de films. Elle utilise une API régulièrement mise à jour dès la sortie de nouveaux films. L'application permet ainsi de consulter les derniers films sortis ou de rechercher un film spécifique pour en lire le résumé.",
+                text = "Cette application, créée par Mehdi, Ilies et Aurélien, est un outil de recherche de films. Elle utilise une API régulièrement mise à jour dès la sortie de nouveaux films. L'application permet ainsi de consulter les derniers films sortis ou de rechercher un film spécifique pour en lire le résumé",
                 textAlign = TextAlign.Center
             )
         }
