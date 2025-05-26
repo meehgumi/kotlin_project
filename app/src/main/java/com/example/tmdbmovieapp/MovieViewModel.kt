@@ -17,7 +17,7 @@ class MovieViewModel : ViewModel() {
         fetchNowPlayingMovies()
     }
 
-    fun fetchNowPlayingMovies() {
+    private fun fetchNowPlayingMovies() {
         viewModelScope.launch {
             movieList = repository.getNowPlayingMovies()
         }
